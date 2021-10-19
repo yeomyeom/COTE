@@ -27,8 +27,8 @@ while True:
     if n<k:
         break
     result += 1
-    n //= k
+    n //= k # 사실 몫이 몇번 나누었는지 나눈 횟수를 의미한다
 
-result += (n-1)
+result += (n-1) # 1을 만드는 건데 -1 안하면 0 만든 횟수가 나온다
 print(result)
     
